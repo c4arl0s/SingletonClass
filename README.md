@@ -8,7 +8,6 @@ Singleton_Class
 # The UIApplication Object
 
 - Every iOS app has exactly one instance of UIApplication. (or, very rarely, a subclass of UIApplication). 
-- Every iOS app has exactly one instance of UIApplication (or, very rarely, a subclass of UIApplication).
 - When the app is launch the system calls a function named: **UIApplicationMain(_:_:_:_:)**.
 # - **UIApplicationMain(_:_:_:_:)** creates an Singleton UIApplication object.
 - After you access the object UIApplication with the method shared class method.
